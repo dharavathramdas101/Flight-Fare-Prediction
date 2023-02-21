@@ -66,11 +66,11 @@ Python 3.8.8
 
 ## Homepage View:-
 
-!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180245.png)
+![image](https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180245.png)
 
-!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180310.png)
+![image](https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180310.png)
 
-!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180453.png)
+![image](https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180453.png)
 
 ![image](https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180245.png)
 
