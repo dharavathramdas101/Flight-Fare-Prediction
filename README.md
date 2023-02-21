@@ -65,7 +65,14 @@ Python 3.8.8
 ## proj2_flowchart
 
 ## Homepage View:-
-![image]("C:\Users\DHARAVATH RAMDAS\Videos\Captures\Document - Google Chrome 2023-02-21 18-19-35.mp4")
+
+!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180245.png)
+
+!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180310.png)
+
+!image(https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180453.png)
+
+![image](https://github.com/dharavathramdas101/Flight-Fare-Prediction/blob/master/images/Screenshot_20230221_180245.png)
 
 ### intall the requirements.txt
 - pip install -r requirements.txt
