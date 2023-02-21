@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}"> -->
+</head>
+<body>
+    <div id="cls">
+        <form action="{{ url_for('predict') }}" method='post' id="formm" >
+            <h2 id="main_h"><ul>Flight fare prediction 😊</ul></h2><br><br>
+            <p id="par" ><b>select your airline services</b></p>
+
+                        <select name="airline" id="fifth" required="required">
+                            <option value="IndiGo" >IndiGo</option>
+                            <option value="Air India">Air India</option>
+                            <option value="Jet Airways">Jet Airways</option>
+                            <option value="SpiceJet">SpiceJet</option>
+                            <option value="Multiple carriers">Multiple carriers</option>
+                            <option value="GoAir">GoAir</option>
+                            <option value="Vistara">Vistara</option>
+                            <option value="Air Asia">Air Asia</option>
+                            <option value="Vistara Premium economy">Vistara Premium economy</option>
+                            <option value="Jet Airways Business">Jet Airways Business</option>
+                            <option value="Multiple carriers Premium economy">Multiple carriers Premium economy</option>
+                            <option value="Trujet">Trujet</option>
+
+                        </select><br><br>
+
+                        
+                         
+                        <!-- #month of journey
+                        # day of journey -->
+
+
+                        <p id="par"><b>Day of journey</b></p>
+
+                        <input  name="day" type="number " id="first" required="required"><br><br>
+                        <p id="par"><b>month of journey</b></p>
+                        <input  name="month" type="number " id="first" required="required"><br><br>
+                        
+                        <p id="par" ><b>select your Source</b></p>
+                        <select name="Source" id="fifth" required="required">
+                            <option value="Banglore">Banglore</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Chennai">Chennai</option>
+                            <option value="Mumbai">Mumbai</option>
+                        </select>
+
+                        <p id="par" ><b>select your Destination</b></p>
+                        <select name="Destination" id="fifth" required="required">
+                            <option value="New Delhi">New Delhi</option>
+                            <option value="Banglore">Banglore</option>
+                            <option value="Cochin">Cochin</option>
+                            <option value="Kolkata">Kolkata</option>
+                            <option value="Delhi">Delhi</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                        </select>
+
+
+
+
+                        <p id="par"><b>arrival time in hour</b></p>
+                        <input  name="arrival_hour" type="number" id="second" required="required"><br><br>
+                        <p id="par"><b>arrival time in minute</b></p>
+                        <input  name="arrival_minute" type="number" id="second" required="required"><br><br>
+
+                        <p id="par"><b>Departure time in hour</b></p>
+                        <input  name="Departure_hour" type="number" id="second" required="required"><br><br>
+                        <p id="par"><b>Departure time in minute</b></p>
+                        <input  name="Departure_minute" type="number" id="second" required="required"><br><br>
+
+
+                        <p id="par"><b>stops during in journey</b></p>
+                        <input type="number" name="stops" id="third" required="required"><br><br>
+                        <button type="submit" id="btn" >CLICK ME</button>
+                        
+                        <br>
+                        <br>
+                        <h3 id="pred">Flight price will be around 👉 {{ prediction_text }}<h3>
