@@ -18,6 +18,47 @@ Travelling through flights has become an integral part of today’s lifestyle as
 ### Approach: 
 The classical machine learning tasks like Data Exploration, Data Cleaning,Feature Engineering, Model Building and Model Testing. Try out different machine learning algorithms that’s best fit for the above case.
 
+### Cleaning the Data
+I needed to clean it up so that it was usable for our model. I made the following changes and created the following variables:
+
+Made Columns for Day and Month out of Date of Journey
+Calculated the total flight duration
+Removed the null values
+Removed the outliers
+
+## Tools Used:
+Python
+Pandas
+Numpy
+Sklearn
+Flask
+Pickle
+HTML
+Heroku
+## Platforms Used:
+Jupyter Notebook
+VS Code
+Github
+Heroku
+
+### Steps Performed
+
+Data Collection
+Data Preprocessing
+Data Cleaning
+Feature Engineering
+Feature Selection
+Feature Scaling
+Model Training
+Model Evaluation
+Model Deployment
+
+## Python Version Used
+
+Python 3.8.8
+
+https://user-images.githubusercontent.com/54064843/136836342-6b4bb5a5-7b97-40af-aa34-f646b1800a37.jpg
+
 ### intall the requirements.txt
 - pip install -r requirements.txt
 
