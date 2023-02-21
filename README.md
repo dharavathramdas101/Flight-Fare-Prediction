@@ -1,4 +1,6 @@
 # Flight_Fare_Prediction
+![image](https://www.shutterstock.com/image-photo/passenger-airplane-landscape-white-flying-260nw-721267990.jpg)
+
 ### Flight Fare Prediction
 ### Problem Statement:
 Travelling through flights has become an integral part of today’s lifestyle as more and more people are opting for faster travelling options. The flight ticket prices increase or decrease every now and then depending on various factors like timing of the flights, destination, and duration of flights various occasions such as vacations or festive season. Therefore, having some basic idea of the flight fares before planning the trip will surely help many people save money and time.
@@ -63,7 +65,7 @@ Python 3.8.8
 ## proj2_flowchart
 
 ## Homepage View:-
-
+![image]("C:\Users\DHARAVATH RAMDAS\Videos\Captures\Document - Google Chrome 2023-02-21 18-19-35.mp4")
 
 ### intall the requirements.txt
 - pip install -r requirements.txt
