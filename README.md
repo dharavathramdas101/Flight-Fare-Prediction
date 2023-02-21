@@ -57,7 +57,13 @@ Model Deployment
 
 Python 3.8.8
 
-https://user-images.githubusercontent.com/54064843/136836342-6b4bb5a5-7b97-40af-aa34-f646b1800a37.jpg
+## lowChart Diagram
+![image](https://user-images.githubusercontent.com/54064843/136836342-6b4bb5a5-7b97-40af-aa34-f646b1800a37.jpg)
+
+## proj2_flowchart
+
+## Homepage View:-
+
 
 ### intall the requirements.txt
 - pip install -r requirements.txt
